@@ -41,11 +41,19 @@ const { createApp } = Vue
 
     methods :{
         prevImg(){
-            this.currentImg--;
+            if(this.currentImg==0){
+                this.currentImg = this.slides.length -1;
+            } else {
+                this.currentImg--;
+            }
         },
 
         nextImg(){
-            this.currentImg++;
+            if(this.currentImg == (this.slides.length-1)){
+                this.currentImg = 0;
+            } else {
+                this.currentImg++;
+            }
         }
     }
   }).mount('#app')
