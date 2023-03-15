@@ -41,11 +41,11 @@ const { createApp } = Vue
 
     methods :{
         prevImg(){
-
+            this.currentImg--;
         },
 
         nextImg(){
-
+            this.currentImg++;
         }
     }
   }).mount('#app')
