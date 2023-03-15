@@ -66,3 +66,10 @@ const { createApp } = Vue
     }
 
   }).mount('#app')
+
+  /*///////////////////////////////////////////////////////7
+
+  PS Ho provato il bonus 3 ma oggi sto stretto coi tempi per un impegno :( 
+  Molto molto figo VUE
+
+//////////////////////////////////////////////*/
